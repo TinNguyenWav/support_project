@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{90D101C8-80C7-48D4-9055-2E451B9BCD75}" version="1400" key="{E246E74C-F188-4E80-BEA5-CE49AC0FA7B9}" typeId="{90D101C8-80C7-48D4-9055-2E451B9BCD75}">
+	<config nodeName="TestedApps" />
+	<testData />
+	<data />
+	<children>
+		<child key="{5C613CD4-68BF-4179-92DD-320D989176ED}">
+			<config nodeName="powershell" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="Start-Process &quot;C:\Users\tu.ha\Desktop\WPF_OpenApp.exe&#13;&#10;&quot;" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="Start-Process &quot;C:\Users\tu.ha\Desktop\WPF_OpenApp.exe&#13;&#10;&quot;" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="Start-Process &quot;C:\Users\tu.ha\Desktop\WPF_OpenApp.exe&#13;&#10;&quot;" workFolder="" />
+					<param name="Simple" fileName="powershell.exe" filePath="C:\Windows\System32\WindowsPowerShell\v1.0\" parameters="Start-Process &quot;C:\Users\tu.ha\Desktop\WPF_OpenApp.exe&#13;&#10;&quot;" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{696B0273-3E8C-49D9-A6EC-25541430A45A}">
+			<config nodeName="BasicCefSharp" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="-cdpAutoSetPort" workFolder="" userName="" password="" domain="" />
+					<param name="Profile" parameters="-cdpAutoSetPort" workFolder="" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="-cdpAutoSetPort" workFolder="" />
+					<param name="Simple" fileName="BasicCefSharp.exe" filePath="C:\Users\tu.ha\Downloads\" parameters="-cdpAutoSetPort" workFolder="" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{C6AFFE56-DD73-4B38-9D76-C3ABC80DFCAE}">
+			<config nodeName="NOTEPAD" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="C:\Users\tu.ha\Desktop\New Text Document.txt" workFolder="C:\Users\tu.ha\Desktop" userName="" password="" domain="" />
+					<param name="Profile" parameters="C:\Users\tu.ha\Desktop\New Text Document.txt" workFolder="C:\Users\tu.ha\Desktop" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="C:\Users\tu.ha\Desktop\New Text Document.txt" workFolder="C:\Users\tu.ha\Desktop" />
+					<param name="Simple" fileName="NOTEPAD.EXE" filePath="C:\WINDOWS\system32\" parameters="C:\Users\tu.ha\Desktop\New Text Document.txt" workFolder="C:\Users\tu.ha\Desktop" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+		<child key="{D8B6F75F-C9FC-4450-AF67-3E1B64BBFD8C}">
+			<config nodeName="EXCEL" autorunOnRecording="False" enabled="True" count="1" useFeaturedRuntimeObject="True" userChangeName="False">
+				<runModeParams activeRunMode="Simple">
+					<param name="RunAs" parameters="C:\Users\tu.ha\Desktop\Book1.xlsx" workFolder="C:\Users\tu.ha\Desktop" userName="" password="" domain="" />
+					<param name="Profile" parameters="C:\Users\tu.ha\Desktop\Book1.xlsx" workFolder="C:\Users\tu.ha\Desktop" useProject="False" projectFileName="" overrideProfiler="False" profilerName="" profileRunMode="Silent" AQtimeVersion="0" forceRunMode="False" />
+					<param name="Debug" parameters="C:\Users\tu.ha\Desktop\Book1.xlsx" workFolder="C:\Users\tu.ha\Desktop" />
+					<param name="Simple" fileName="EXCEL.EXE" filePath="C:\Program Files\Microsoft Office\Root\Office16\" parameters="C:\Users\tu.ha\Desktop\Book1.xlsx" workFolder="C:\Users\tu.ha\Desktop" />
+				</runModeParams>
+			</config>
+			<testData />
+			<data />
+		</child>
+	</children>
+</Root>

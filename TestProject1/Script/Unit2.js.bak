@@ -1,0 +1,14 @@
+﻿function GetPDFText()
+{
+  // Get a PDF file and save it
+  //var url = "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf";
+  var path = "C:\\Users\\tu.ha\\Downloads\\PDF_Testing.pdf";
+  //var request = aqHttp.CreateGetRequest(url);
+  //var responsePDF = request.Send();
+  //responsePDF.SaveToFile(path);
+
+  // Extract and recognize the PDF file text content
+  var str = PDF.ConvertToText(path);
+  if (aqFile.Exists(path))
+    Log.Message("View the recognized text in the Details panel of the log", str);
+}

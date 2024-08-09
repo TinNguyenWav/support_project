@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{47A1C3B1-DF39-4B2A-A785-9D379C11AFB4}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="5" kind="0" dateTime="45238.4161342593" objectName="Aliases.browser.pageShop.sectionContent2.articleArt.linkShowProductsInCategoryFurnit.imageFurnitureJpgSize256" objectLeft="433" objectTop="697" objectRight="617" objectBottom="908" clickPointX="506" clickPointY="753" imageFileName="tcvi61174385983681.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="8" kind="0" dateTime="45238.4161689815" objectName="Aliases.browser.pageShopFurniture.sectionContent2.articleArt.linkShowProductsInCategoryChairs.imageFurnitureJpgSize256" objectLeft="581" objectTop="689" objectRight="795" objectBottom="933" clickPointX="693" clickPointY="771" imageFileName="tcvi61174700083683.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="13" kind="0" dateTime="45238.4162384259" objectName="Aliases.browser.pageShopChairs.sectionContent.linkShowDetailsForBallChair.imageBallChairWhiteJpgSize256" objectLeft="581" objectTop="802" objectRight="811" objectBottom="1064" clickPointX="718" clickPointY="912" imageFileName="tcvi61175312583685.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

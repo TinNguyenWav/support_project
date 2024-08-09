@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{AA2F3067-5C9B-4CCF-89D4-1F93CE1C510F}" version="15.0">
+	<children>
+		<child name="Test_txt" key="{F1C83B4C-6325-44CD-B2E0-3C7C3CB4BAC9}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Test_txt" ID="{F1C83B4C-6325-44CD-B2E0-3C7C3CB4BAC9}" FileName="Files\Test.txt" Update="False" />
+		</child>
+		<child name="Compare_txt" key="{47BFC35D-3B06-4614-BB3F-F4CF31B576FC}">
+			<data signature="{FC92F8D9-8A57-4D74-B8B4-479AA50BF647}" version="15.0" caption="Compare_txt" ID="{47BFC35D-3B06-4614-BB3F-F4CF31B576FC}" FileName="Files\Compare.txt" Update="False" />
+		</child>
+	</children>
+</Root>

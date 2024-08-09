@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{1B904060-77AE-42C8-91C0-917CACB9A4DF}"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="child index" type="I" value="-1"/>
+			<Prp name="as html" type="B" value="-1"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="message" type="S" value="Device &quot;Samsung Galaxy S21 FE 5G -US&quot; was connected."/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="type" type="I" value="0"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="date" type="D" value="45236.6648753588"/>
+			<Prp name="remarks" type="S" value="&lt;html&gt;&lt;head&gt;&lt;style&gt;td{font-family: Courier New, Consolas, Segoe UI; font-size : 14px;}&lt;/style&gt;&lt;/head&gt;&lt;body&gt;&lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;HubUrl:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;https://appium-us.bitbar.com/wd/hub/&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;tr&gt;&lt;td&gt;&lt;b&gt;Capabilities:&lt;/b&gt;&lt;/td&gt;&lt;td&gt;{&quot;platformName&quot;:&quot;ANDROID&quot;,&quot;bitbar_target&quot;:&quot;android&quot;,&quot;bitbar_findDevice&quot;:false,&quot;bitbar_device&quot;:&quot;Samsung Galaxy S21 FE 5G -US&quot;,&quot;deviceName&quot;:&quot;Samsung Galaxy S21 FE 5G -US&quot;,&quot;automationName&quot;:&quot;UiAutomator2&quot;,&quot;bitbar_app&quot;:&quot;170529657&quot;}&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/body&gt;&lt;/html&gt;"/>
+		</Node>
+		<Node name="child data"/>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>

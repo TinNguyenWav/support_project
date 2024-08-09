@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{42D2222C-ACA2-405F-8E67-05D5C42EB839}" version="2">
+	<data key="{1B904060-77AE-42C8-91C0-917CACB9A4DF}">
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="4" kind="0" dateTime="45239.346724537" objectName="Aliases.browser.pageShop.sectionContent2.articleArt2.linkShowProductsInCategorySoccer.imageSoccerPngSize256" objectLeft="674" objectTop="648" objectRight="881" objectBottom="859" clickPointX="730" clickPointY="702" imageFileName="tcvi692146781110723.png" storageFileName="" needUpdate="False" rectColor="255" />
+		<item typeId="{87B03792-E854-4F5D-9F33-165F1F874209}" version="2" lineNo="7" kind="0" dateTime="45239.3468287037" objectName="Aliases.browser.pageShopSoccer.sectionContent.linkShowDetailsForStreetFootball.imageNikeStrikeFootballJpgSize25" objectLeft="536" objectTop="753" objectRight="798" objectBottom="1015" clickPointX="711" clickPointY="904" imageFileName="tcvi692155843110725.png" storageFileName="" needUpdate="False" rectColor="255" />
+	</data>
+</Root>

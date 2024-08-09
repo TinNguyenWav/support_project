@@ -1,0 +1,1233 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="message 13">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage12_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9390116561744831.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="728"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="466"/>
+					<Prp name="datetime" type="D" value="45222.3177430556"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="406"/>
+					<Prp name="object left" type="I" value="536"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectYear"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage12.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="728"/>
+					<Prp name="click point y" type="I" value="717"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="632"/>
+					<Prp name="object bottom" type="I" value="747"/>
+					<Prp name="datetime" type="D" value="45222.3305888079"/>
+					<Prp name="line #" type="I" value="19"/>
+					<Prp name="object top" type="I" value="687"/>
+					<Prp name="object left" type="I" value="536"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectYear"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item '2008' was selected."/>
+			<Prp name="date" type="D" value="45222.6222673032"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="13"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="19"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectYear&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;//select[@id=(//label[.='Year']/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 10">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage9_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9390028591744817.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="524"/>
+					<Prp name="click point y" type="I" value="693"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="413"/>
+					<Prp name="object bottom" type="I" value="724"/>
+					<Prp name="datetime" type="D" value="45222.3176388889"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object top" type="I" value="664"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectState"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage9.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="524"/>
+					<Prp name="click point y" type="I" value="186"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="431"/>
+					<Prp name="object bottom" type="I" value="216"/>
+					<Prp name="datetime" type="D" value="45222.3305347685"/>
+					<Prp name="line #" type="I" value="16"/>
+					<Prp name="object top" type="I" value="156"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectState"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'Louisiana' was selected."/>
+			<Prp name="date" type="D" value="45222.6222130903"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="10"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="16"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectState&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;//select[@id=(//label[.='State*']/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 2">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi938970046174480.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="711"/>
+					<Prp name="click point y" type="I" value="928"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="617"/>
+					<Prp name="object bottom" type="I" value="957"/>
+					<Prp name="datetime" type="D" value="45222.3172569444"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object top" type="I" value="874"/>
+					<Prp name="object left" type="I" value="332"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpThroughInsuranceBy.linkClickToGetStarted"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage1.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="711"/>
+					<Prp name="click point y" type="I" value="200"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="521"/>
+					<Prp name="object bottom" type="I" value="242"/>
+					<Prp name="datetime" type="D" value="45222.330453125"/>
+					<Prp name="line #" type="I" value="2"/>
+					<Prp name="object top" type="I" value="159"/>
+					<Prp name="object left" type="I" value="332"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpThroughInsuranceBy.linkClickToGetStarted"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45222.6221217824"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="2"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="2"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (126, 27) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBreastPumpThroughInsuranceBy.linkClickToGetStarted&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/&quot;).FindElement(&quot;//a[.='CLICK TO GET STARTED']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 1">
+			<Node name="visualizer">
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage0.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1931"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="1031"/>
+					<Prp name="datetime" type="D" value="45222.3304491898"/>
+					<Prp name="line #" type="I" value="1"/>
+					<Prp name="object top" type="I" value="-11"/>
+					<Prp name="object left" type="I" value="-11"/>
+					<Prp name="object name" type="S" value="Aliases.browser.BrowserWindow"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The 'Breast Pump Through Insurance | Byram Healthcare Breast Pumps - Google Chrome' window was maximized."/>
+			<Prp name="date" type="D" value="45222.6221164931"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="1"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="1"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.BrowserWindow&#xA;(Sys.Browser(&quot;chrome&quot;).BrowserWindow(0))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 7">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9389933281744813.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="734"/>
+					<Prp name="click point y" type="I" value="623"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="677"/>
+					<Prp name="object bottom" type="I" value="647"/>
+					<Prp name="datetime" type="D" value="45222.3175347222"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object top" type="I" value="587"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectWhereDidYouLearnAboutByram"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage6.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="734"/>
+					<Prp name="click point y" type="I" value="647"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="677"/>
+					<Prp name="object bottom" type="I" value="671"/>
+					<Prp name="datetime" type="D" value="45222.3305127431"/>
+					<Prp name="line #" type="I" value="13"/>
+					<Prp name="object top" type="I" value="611"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectWhereDidYouLearnAboutByram"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45222.6221804861"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="7"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="13"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (358, 24) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectWhereDidYouLearnAboutByram&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;//select[@id=(//label[.='Where did you learn about Byram Healthcare?*']/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 6">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9389884681744810.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1164"/>
+					<Prp name="click point y" type="I" value="561"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1016"/>
+					<Prp name="object bottom" type="I" value="592"/>
+					<Prp name="datetime" type="D" value="45222.3174768519"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object top" type="I" value="509"/>
+					<Prp name="object left" type="I" value="912"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.buttonNext"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage5.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1164"/>
+					<Prp name="click point y" type="I" value="250"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1038"/>
+					<Prp name="object bottom" type="I" value="292"/>
+					<Prp name="datetime" type="D" value="45222.3304833333"/>
+					<Prp name="line #" type="I" value="12"/>
+					<Prp name="object top" type="I" value="209"/>
+					<Prp name="object left" type="I" value="912"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.buttonNext"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45222.6221549884"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="6"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="12"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.buttonNext&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;//button[.='Next']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 14">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage13_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9390143901744834.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="664"/>
+					<Prp name="datetime" type="D" value="45222.3177777778"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object top" type="I" value="604"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectMonth2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage13.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="click point y" type="I" value="915"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="236"/>
+					<Prp name="object bottom" type="I" value="945"/>
+					<Prp name="datetime" type="D" value="45222.3306076852"/>
+					<Prp name="line #" type="I" value="20"/>
+					<Prp name="object top" type="I" value="885"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectMonth2"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'October' was selected."/>
+			<Prp name="date" type="D" value="45222.6222855671"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="14"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="20"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectMonth2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;#babyDOBdateMonth&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 4">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi938983921174488.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1789"/>
+					<Prp name="click point y" type="I" value="309"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1575"/>
+					<Prp name="object bottom" type="I" value="340"/>
+					<Prp name="datetime" type="D" value="45222.3174189815"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object top" type="I" value="265"/>
+					<Prp name="object left" type="I" value="1402"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpDetails.buttonSelectBreastPump"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage3.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1789"/>
+					<Prp name="click point y" type="I" value="279"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1595"/>
+					<Prp name="object bottom" type="I" value="317"/>
+					<Prp name="datetime" type="D" value="45222.3304729977"/>
+					<Prp name="line #" type="I" value="10"/>
+					<Prp name="object top" type="I" value="242"/>
+					<Prp name="object left" type="I" value="1402"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpDetails.buttonSelectBreastPump"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The button was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45222.6221418634"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="4"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="10"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpDetails.buttonSelectBreastPump&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/breastpump/order/4c362ab1-7971-4242-b805-689d75d1ab04&quot;).FindElement(&quot;//button[text()='SELECT BREAST PUMP']&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 8">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi939538281174483.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="734"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="725"/>
+					<Prp name="datetime" type="D" value="45222.3238425926"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object top" type="I" value="665"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectWhereDidYouLearnAboutByram"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage7.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="734"/>
+					<Prp name="click point y" type="I" value="641"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="437"/>
+					<Prp name="object bottom" type="I" value="671"/>
+					<Prp name="datetime" type="D" value="45222.3305192477"/>
+					<Prp name="line #" type="I" value="14"/>
+					<Prp name="object top" type="I" value="611"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectWhereDidYouLearnAboutByram"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'Other' was selected."/>
+			<Prp name="date" type="D" value="45222.6221896296"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="8"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="14"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectWhereDidYouLearnAboutByram&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;//select[@id=(//label[.='Where did you learn about Byram Healthcare?*']/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 0">
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="Navigating to the https://breastpumps.byramhealthcare.com/ page."/>
+			<Prp name="date" type="D" value="45222.6221144213"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="0"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="0"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="URL: https://breastpumps.byramhealthcare.com/&#xA;&#xA;Aliases.browser"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 3">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi938980640174487.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="797"/>
+					<Prp name="click point y" type="I" value="576"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="712"/>
+					<Prp name="object bottom" type="I" value="606"/>
+					<Prp name="datetime" type="D" value="45222.3173842593"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object top" type="I" value="456"/>
+					<Prp name="object left" type="I" value="595"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpOrder.imageBreastpumps"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage2.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="797"/>
+					<Prp name="click point y" type="I" value="681"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="696"/>
+					<Prp name="object bottom" type="I" value="756"/>
+					<Prp name="datetime" type="D" value="45222.3304634722"/>
+					<Prp name="line #" type="I" value="9"/>
+					<Prp name="object top" type="I" value="606"/>
+					<Prp name="object left" type="I" value="595"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpOrder.imageBreastpumps"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45222.6221316204"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="3"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="9"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (67, 50) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBreastPumpOrder.imageBreastpumps&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/breastpump/order&quot;).FindElement(&quot;//div/div/img[contains(@src, 'breastpumps')]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="stack"/>
+		<Node name="units">
+			<Prp name="unit 0" type="S" value="{66D8D1F0-0BE1-40DE-8A34-665740611859}"/>
+		</Node>
+		<Node name="message 9">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi939543218174484.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="524"/>
+					<Prp name="click point y" type="I" value="590"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="463"/>
+					<Prp name="object bottom" type="I" value="627"/>
+					<Prp name="datetime" type="D" value="45222.3238888889"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object top" type="I" value="567"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectState2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage8.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="524"/>
+					<Prp name="click point y" type="I" value="180"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="462"/>
+					<Prp name="object bottom" type="I" value="218"/>
+					<Prp name="datetime" type="D" value="45222.3305258681"/>
+					<Prp name="line #" type="I" value="15"/>
+					<Prp name="object top" type="I" value="158"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectState2"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45222.6221937847"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="9"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="15"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (83, 15) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectState2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;#doctorState&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 11">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage10_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9390076711744823.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="466"/>
+					<Prp name="datetime" type="D" value="45222.3176967593"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="406"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectMonth"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage10.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="332"/>
+					<Prp name="click point y" type="I" value="717"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="236"/>
+					<Prp name="object bottom" type="I" value="747"/>
+					<Prp name="datetime" type="D" value="45222.3305529167"/>
+					<Prp name="line #" type="I" value="17"/>
+					<Prp name="object top" type="I" value="687"/>
+					<Prp name="object left" type="I" value="140"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectMonth"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item 'August' was selected."/>
+			<Prp name="date" type="D" value="45222.6222312384"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="11"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="17"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectMonth&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;//select[@id=(//label[.='Month']/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 15">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage14_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9390179371744838.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="530"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="664"/>
+					<Prp name="datetime" type="D" value="45222.3178125"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object top" type="I" value="604"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectDay2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage14.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="530"/>
+					<Prp name="click point y" type="I" value="915"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="434"/>
+					<Prp name="object bottom" type="I" value="945"/>
+					<Prp name="datetime" type="D" value="45222.3306262963"/>
+					<Prp name="line #" type="I" value="21"/>
+					<Prp name="object top" type="I" value="885"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectDay2"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item '23' was selected."/>
+			<Prp name="date" type="D" value="45222.6223041782"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="15"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="21"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectDay2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;#babyDOBdateDay&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 17">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage16_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9390238121744843.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="524"/>
+					<Prp name="click point y" type="I" value="588"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="430"/>
+					<Prp name="object bottom" type="I" value="609"/>
+					<Prp name="datetime" type="D" value="45222.3178819444"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object top" type="I" value="549"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectState2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage16.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="524"/>
+					<Prp name="click point y" type="I" value="197"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="429"/>
+					<Prp name="object bottom" type="I" value="218"/>
+					<Prp name="datetime" type="D" value="45222.3306573958"/>
+					<Prp name="line #" type="I" value="23"/>
+					<Prp name="object top" type="I" value="158"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectState2"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45222.6223253125"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="17"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="23"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (61, 26) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectState2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;#doctorState&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 16">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage15_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9390202501744842.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="728"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="664"/>
+					<Prp name="datetime" type="D" value="45222.3178356482"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object top" type="I" value="604"/>
+					<Prp name="object left" type="I" value="536"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectYear2"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage15.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="728"/>
+					<Prp name="click point y" type="I" value="915"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="632"/>
+					<Prp name="object bottom" type="I" value="945"/>
+					<Prp name="datetime" type="D" value="45222.3306434375"/>
+					<Prp name="line #" type="I" value="22"/>
+					<Prp name="object top" type="I" value="885"/>
+					<Prp name="object left" type="I" value="536"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectYear2"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item '2024' was selected."/>
+			<Prp name="date" type="D" value="45222.6223219444"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="16"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="22"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectYear2&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;#babyDOBdateYear&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="child data"/>
+		<Node name="message 12">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage11_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi9390095001744827.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="530"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="466"/>
+					<Prp name="datetime" type="D" value="45222.3177199074"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object top" type="I" value="406"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectDay"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage11.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="530"/>
+					<Prp name="click point y" type="I" value="717"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="434"/>
+					<Prp name="object bottom" type="I" value="747"/>
+					<Prp name="datetime" type="D" value="45222.3305716088"/>
+					<Prp name="line #" type="I" value="18"/>
+					<Prp name="object top" type="I" value="687"/>
+					<Prp name="object left" type="I" value="338"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.selectDay"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The combo box item '08' was selected."/>
+			<Prp name="date" type="D" value="45222.6222497106"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="12"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="18"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.selectDay&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;//select[@id=(//label[.='Day']/@for)]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Node name="message 5">
+			<Node name="visualizer">
+				<Node name="diff">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4_Dif.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="-1"/>
+					<Prp name="click point y" type="I" value="-1"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="-1"/>
+					<Prp name="object bottom" type="I" value="-1"/>
+					<Prp name="datetime" type="D" value="0"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="-1"/>
+					<Prp name="object left" type="I" value="-1"/>
+					<Prp name="object name" type="S" value=""/>
+				</Node>
+				<Node name="original">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="tcvi938987593174489.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1179"/>
+					<Prp name="click point y" type="I" value="601"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1015"/>
+					<Prp name="object bottom" type="I" value="603"/>
+					<Prp name="datetime" type="D" value="45222.3174652778"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="498"/>
+					<Prp name="object left" type="I" value="897"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.panelNext"/>
+				</Node>
+				<Node name="current">
+					<Prp name="storage file name" type="S" value=""/>
+					<Prp name="signature" type="S" value="{87B03792-E854-4F5D-9F33-165F1F874209}"/>
+					<Prp name="kind" type="I" value="0"/>
+					<Prp name="image file name" type="S" value="visImage4.png"/>
+					<Prp name="need update" type="B" value="0"/>
+					<Prp name="object right" type="I" value="1179"/>
+					<Prp name="click point y" type="I" value="250"/>
+					<Prp name="version" type="I" value="2"/>
+					<Prp name="rect color" type="I" value="255"/>
+					<Prp name="click point x" type="I" value="1038"/>
+					<Prp name="object bottom" type="I" value="303"/>
+					<Prp name="datetime" type="D" value="45222.330477963"/>
+					<Prp name="line #" type="I" value="11"/>
+					<Prp name="object top" type="I" value="198"/>
+					<Prp name="object left" type="I" value="897"/>
+					<Prp name="object name" type="S" value="Aliases.browser.pageBreastPumpCheckout.panelNext"/>
+				</Node>
+			</Node>
+			<Prp name="as html" type="B" value="0"/>
+			<Prp name="picture" type="S" value=""/>
+			<Prp name="type" type="I" value="1"/>
+			<Prp name="unit id" type="I" value="0"/>
+			<Prp name="link" type="S" value=""/>
+			<Prp name="message" type="S" value="The window was clicked with the left mouse button."/>
+			<Prp name="date" type="D" value="45222.6221470833"/>
+			<Prp name="pictype" type="I" value="0"/>
+			<Prp name="id" type="I" value="5"/>
+			<Prp name="priority" type="I" value="300"/>
+			<Prp name="line no" type="I" value="11"/>
+			<Prp name="owner id" type="I" value="-1"/>
+			<Prp name="remarks" type="S" value="A click at point (94, 35) with no key pressed.&#xA;&#xA;Tested object:&#xA;Aliases.browser.pageBreastPumpCheckout.panelNext&#xA;(Sys.Browser(&quot;chrome&quot;).Page(&quot;https://breastpumps.byramhealthcare.com/checkout&quot;).FindElement(&quot;//div[2]/div[contains(@class, 'is-narrow')]&quot;))"/>
+			<Prp name="child index" type="I" value="-1"/>
+		</Node>
+		<Prp name="status" type="I" value="0"/>
+	</Node>
+</Nodes>
